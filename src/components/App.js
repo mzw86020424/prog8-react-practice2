@@ -7,9 +7,18 @@ class App extends React.Component {
       <div>
         <h1>言語一覧</h1>
         <div className='language'>
-          <Language />
-          <Language />
-          <Language />
+          <Language
+            name='HTML & CSS'
+            image='https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/react/html.svg'
+          />
+          <Language
+            name='JavaScript'
+            image='https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/react/es6.svg'
+          />
+          <Language
+            name='React'
+            image='https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/react/react.svg'
+          />
         </div>
       </div>
     );
