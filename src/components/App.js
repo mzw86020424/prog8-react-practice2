@@ -1,11 +1,16 @@
 import React from 'react';
+import Language from './Language';
 
 class App extends React.Component {
   render() {
     return (
       <div>
-        <h1>Hello World</h1>
-        <p>一緒にReactを学びましょう！</p>
+        <h1>言語一覧</h1>
+        <div className='language'>
+          <Language />
+          <Language />
+          <Language />
+        </div>
       </div>
     );
   }
